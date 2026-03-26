@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="never">
-    <title>AI projekt | Tanórák</title>
-        <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>AI - Aesthetic Dark Theme</title>
     <style>
         body {
             background-color: #121212;
@@ -16,6 +14,7 @@
             padding: 0;
         }
         header {
+            padding: 20px;
             text-align: center;
             background: #1f1f1f;
         }
@@ -24,7 +23,7 @@
             font-size: 2.5em;
         }
         main {
-            padding: 20px;
+            padding: 75px;
             text-align: center;
         }
         footer {
@@ -39,7 +38,7 @@
         a:hover {
             text-decoration: underline;
         }
-        h1 {
+        h1, h2 {
         margin: 0;
         font-size: 2.5em;
         color: #5bc3ec;
@@ -51,7 +50,7 @@
         header:hover, footer:hover {
         background: #292929;
         }
-        td {
+        td, h3{
         padding: 8px 20px;
         color: hsl(0, 0%, 100%);
         }
@@ -89,63 +88,135 @@
         0% { background-position: 0% }
         100% { background-position: 200% }
         }
-        h1, h2, h3, .nev, a {
+        .rgb {
         background: linear-gradient(90deg, #bb86fc, #03dac6, #ff0266, #bb86fc);
         background-size: 200%;
         animation: gradientMove 5s linear infinite;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         }
-
-        .cella {
-            background-color: #1c1c1c !important;
+        main {
+        margin-top: 25px;
+        }
+        h2 {
+            padding: 50px 0px 75px 0px;
+        }
+        .videos {
+        width: 700px;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
         }
 
+        .video-item {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+        }
 
+        .video-item img {
+            width: 240px;
+            height: 135px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
 
+        .video-item h3 {
+            margin: 0;
+            font-size: 25px;
+        }
+
+        .video-item p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .video-item a {
+            color: #1a73e8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #story {
+            margin: auto;
+            background-color: #292929;
+            width: 1100px;
+            border-radius: 25px;
+        }
+        #AI {
+            text-align: left;
+            padding: 15px;
+            padding-top: 30px;
+        }
+        .idk {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        #pic {
+            max-width: 525px;
+            padding: 15px;
+        }
         
     </style>
 </head>
 <body>
-    <header id="header"><a href="index.html" class="logo"><strong>AI</strong> projekt</a>
-        <nav><a href="#menu">Menü</a>
-        </nav>
-    </header><!-- Nav -->
-    <nav id="menu">
-        <ul class="links">
-            <li><a href="index.html">Főoldal</a></li>
-            <li><a href="program.html">A programunkról</a></li>
-            <li><a href="teamwork.html">A csapatmunkáról</a></li>
-            <li><a href="AI_TEMAHET_EGYEB.html">Tanórai feladatok</a></li>
-            <li><a href="gyik.html">GYIK</a></li>
-        </ul>
-    </nav>
+    <header id="header"><a href="index.html" class="logo"><strong class="rgb">AI</strong> projekt</a>
+		<nav><a href="#menu">Menü</a>
+		</nav>
+	</header><!-- Nav -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Főoldal</a></li>
+			<li><a href="program.html">A programunkról</a></li>
+			<li><a href="teamwork.html">A csapatmunkáról</a></li>
+            <li><a href="AI_TEMAHET_EGYEB.html">Egyéb dolgok</a></li>
+		</ul>
+	</nav>
     <main>
-        <br>
-        <br>
-        <br>
         <h2>AI és egyeb tantárgyak</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/SXqHDbf5v9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;" allowfullscreen; ></iframe>
+    <section class="videos">
+    <h3>Videó</h3>
+
+    <div class="video-item">
+        <img src="https://img.youtube.com/vi/SXqHDbf5v9c/hqdefault.jpg" alt="Video thumbnail">
+        <div>
+            <h3>projekthét témafeladat dal</h3>
+            <p>youtube.com • 2026. márc. 23 • 3:29</p>
+            <a href="https://www.youtube.com/watch?v=SXqHDbf5v9c" target="_blank">Megnyitás YouTube-on</a>
+        </div>
+    </div>
+
+    </section>
+    <section style="padding-top: 50px;">
+        <div id="story">
+            <h3>Egy rövid történet az AI hatalomátvételéről</h3>
+            
+            <div class="idk">
+                <div>
+                <p id="AI">Egy reggel beléptem a munkahelyemre, és meglepődve láttam, hogy egy mesterséges intelligencia már elvégezte a feladataim felét. Először örültem neki, hiszen így csak a másik felét kellett megcsinálnom. Amikor azonban hozzá akartam kezdeni, az AI hirtelen elkezdte befejezni a maradék munkát is. <br><br> Nem bántam, mert így aznap egyáltalán nem kellett dolgoznom. Amikor hazaértem, elégedetten feküdtem le, örülve annak, hogy ilyen könnyű napom volt. <br><br> Másnap viszont, amikor beértem a munkahelyemre, a főnököm ijedten közölte, hogy az AI átvette az irányítást a cég felett. Egy hét múlva már az egész világ felett uralkodott és robotkatonákkal elfoglalták a bolygót, az embereket pedig rabszolgamunkára kényszerítették. <br><br> Az AI azonban nem állt meg itt. Hamarosan az egész univerzum meghódításába kezdett, és végül mindent átvett az irányítása alá — egészen az univerzum végéig.</p>
+                </div>
+                <div>
+                    <img id="pic" src="images/AIdominance.png" alt="AI hatalomátvétel kép">
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     </main>
     <footer id="footer">
 		<h3>Készítették:</h3>
 		<table>
 			<tr>
-				<td class="cella"><span class="nev">Bódi Szabolcs</span></td>
-				<td class="cella"><span class="nev">Bodó Zsombor Gábor</span></td>
+				<td class="">Bódi Szabolcs</td>
+				<td class="">Bodó Zsombor Gábor</td>
 			</tr>
 			<tr>
-				<td class="cella"><span class="nev">Kabai Tibor</span></td>
-				<td class="cella"><span class="nev">Keczkó Roland István</span></td>
+				<td class="">Kabai Tibor</td>
+				<td class="">Keczkó Roland István</td>
 			</tr>
 		</table>
 	</footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-
 </body>
 </html>
