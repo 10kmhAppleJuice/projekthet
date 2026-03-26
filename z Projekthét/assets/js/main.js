@@ -4,6 +4,16 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+document.querySelectorAll('.faq-question').forEach(question => {
+	question.addEventListener('click', () => {
+    	const answer = question.nextElementSibling;
+
+    	question.classList.toggle('active');
+    	answer.classList.toggle('open');
+  	});
+});
+
+
 
 document.addEventListener("DOMContentLoaded", () => {
     const elements = document.querySelectorAll(".reveal-up");

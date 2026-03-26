@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="never">
-    <title>AI - Aesthetic Dark Theme</title>
+    <title>AI projekt | Tanórák</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <style>
         body {
             background-color: #121212;
@@ -14,7 +16,6 @@
             padding: 0;
         }
         header {
-            padding: 20px;
             text-align: center;
             background: #1f1f1f;
         }
@@ -88,21 +89,41 @@
         0% { background-position: 0% }
         100% { background-position: 200% }
         }
-        h1, h2, h3, td, a {
+        h1, h2, h3, .nev, a {
         background: linear-gradient(90deg, #bb86fc, #03dac6, #ff0266, #bb86fc);
         background-size: 200%;
         animation: gradientMove 5s linear infinite;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         }
+
+        .cella {
+            background-color: #1c1c1c !important;
+        }
+
+
+
         
     </style>
 </head>
 <body>
-    <header>
-        <h1>Artificial Intelligence</h1>
-    </header>
+    <header id="header"><a href="index.html" class="logo"><strong>AI</strong> projekt</a>
+        <nav><a href="#menu">Menü</a>
+        </nav>
+    </header><!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a href="program.html">A programunkról</a></li>
+            <li><a href="teamwork.html">A csapatmunkáról</a></li>
+            <li><a href="AI_TEMAHET_EGYEB.html">Tanórai feladatok</a></li>
+            <li><a href="gyik.html">GYIK</a></li>
+        </ul>
+    </nav>
     <main>
+        <br>
+        <br>
+        <br>
         <h2>AI és egyeb tantárgyak</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/SXqHDbf5v9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;" allowfullscreen; ></iframe>
 
@@ -111,14 +132,20 @@
 		<h3>Készítették:</h3>
 		<table>
 			<tr>
-				<td class="">Bódi Szabolcs</td>
-				<td class="">Bodó Zsombor Gábor</td>
+				<td class="cella"><span class="nev">Bódi Szabolcs</span></td>
+				<td class="cella"><span class="nev">Bodó Zsombor Gábor</span></td>
 			</tr>
 			<tr>
-				<td class="">Kabai Tibor</td>
-				<td class="">Keczkó Roland István</td>
+				<td class="cella"><span class="nev">Kabai Tibor</span></td>
+				<td class="cella"><span class="nev">Keczkó Roland István</span></td>
 			</tr>
 		</table>
 	</footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
 </body>
 </html>
