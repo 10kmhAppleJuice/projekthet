@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<!--
+	Binary by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="hu">
+
+<head>
+    <title>SPAM vagy SEM? | A programról</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/footer.css">
+	<style>
+		.cella {
+			background-color: #1c1c1c;
+		}
+	</style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header"><a href="../z Projekthét/index.html" class="logo"><strong>SPAM</strong> vagy <strong>SEM</strong>?</a>
+        <nav><a href="#menu">Menü</a>
+        </nav>
+    </header><!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="../z Projekthét/index.html">Főoldal</a></li>
+            <li><a href="../z Projekthét/program.html">Programról</a></li>
+            <li><a href="../z Projekthét/teamwork.html">Csapatmunkáról</a></li>
+            <li><a href="../z Projekthét/AI_TEMAHET_EGYEB.html">Tanórai feladatok</a></li>
+            <li><a href="../z Projekthét/gyik.html">GYIK</a></li>
+            <li><a href="../z Projekthét/AIprobaHTML.html"><strong style="color: white;">SPAM vagy SEM?</strong> program</a></li>
+        </ul>
+    </nav>
+    <section id="main">
+        <div class="inner">
+            <div class="image fit">
+                <img src="images/pic11.jpg" alt="">
+            </div>
+            <header>
+                <h1>A programról</h1>
+                <p class="info">Hogyan működik a programunk?</p>
+            </header>
+            <section class="bekezdesek">
+                <img src="images/program1.jpg" alt="">
+                <p>A programunkban található <b>mesterséges intelligenciát</b> (AI) egy olyan adatbázissal taníttattuk be, amely vegyesen tartalmazott olyan leveleket amelyek rendes levelek (HAM-ek) és levélszemetek (SPAM-ek) voltak. Az AI-unk betanítására <i>felügyelt tanítást</i> alkalmaztunk, hiszen a kezdeti több mint 5 000 elemes adatbázisunkban fel volt tűntetve, hogy melyik levél valódi és melyik nem. Ennek a tanulásnak a végeredménye az lett, hogy a <u>programunk 97%-os pontossággal</u> meg tudja állapítani egy emailről, hogy az SPAM-e vagy sem.</p>
+            </section>
+            <section class="bekezdesek">
+                <img src="images/program2.png" alt="">
+                <p>A programunk megírásakor a <b>Python</b>-t választottuk. Az egyik amiért ezt választottuk az a nyelvnek az <i>egyszerűsége</i>, hiszen majdnem a legegyszerűbb programozási nyelv. A második érv pedig, hogy számos olyan <i>könyvtár</i> érhető el hozzá, amelyek megkönnyítik a gépi tanulási feladatok megvalósítását.</p>
+            </section>
+            <section class="bekezdesek">
+                <img src="images/program3.jpg" alt="">
+                <p>A Python programunk a tanulás folyamata során a levélben található szavakat <i>lecsonkolta</i> olyan mértékig, hogy már csak a szótöve maradt meg. Ennek adott egy <i></i> és egy előfordulási esélyt, vagyis egy <i>súlyt</i>, amelyet beletett egy <u>ONNX</u> fájlba.</p>
+            </section>
+            <section class="bekezdesek">
+                <img src="images/program4.png" alt="">
+                <p>Az <b>ONNX</b> fáljunkban található a <i>programunk "agya"</i>, hiszen ez tartalmazza a <i>matematikai modell szerkezetét</i> és az <i>egyéb konfigurációkat</i> is.</p>
+            </section>
+            <section class="bekezdesek">
+                <img src="images/program5.png" alt="">
+                <p>Ezek után a Python programunk egy <b>JSON fájlt</b> hoz létre amely tartalmazza a szavak indexét, hogy meg tudja keresni az ahhoz a szóhoz tartozó súlyt, és ez lesz az a fájl amelyet majd a JavaScript fel fog tudni használni ahhoz hogy kiszámítsa, hogy ez egy SPAM-e vagy sem.</p>
+            </section>
+            <section class="bekezdesek">
+                <img src="images/program6.png" alt="">
+                <p>Végezetül a <b>JavaScript</b>, amelynek a feladata, hogy a JSON segítségével előkészítse a szöveget, betöltse a modellünket, amelyet az ONNX tartalmaz, majd lefuttassa a SPAM szűrést és a weboldalon végül <u>megjelenítse a végeredményt.</u></p>
+            </section>
+        </div>
+    </section><!-- Footer -->
+    <footer id="footer">
+        <h3>Készítették:</h3>
+		<table>
+			<tr>
+				<td class="cella">Bódi Szabolcs</td>
+				<td class="cella">Bodó Zsombor Gábor</td>
+			</tr>
+			<tr>
+				<td class="cella">Kabai Tibor</td>
+				<td class="cella">Keczkó Roland István</td>
+			</tr>
+		</table>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
