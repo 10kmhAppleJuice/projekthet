@@ -1,0 +1,66 @@
+
+body {
+     padding-top: 3.25em; 
+     background-color:#0c4d5e ;
+} 
+
+img{
+    border-radius: 15px;
+}
+
+.ai-section { 
+    padding: 80px 0; width: 100%; border-bottom: 1px solid rgba(255,255,255,0.05); 
+}
+#mia {
+     background-color: #0c4d5e; color: #e0f0f3; 
+}   
+#felt {
+     background-color: #093641; color: #e0f0f3; 
+    }
+#feln {
+     background-color: #14505f; color: #e0f0f3; 
+}   
+#meg {
+     background-color: #046a83; color: #e0f0f3; 
+    }
+#deep {
+     background-color: #0c4d5e; color: #e0f0f3; 
+}
+.ai-section a.button.small-source {
+    height: 2.4em;
+    line-height: 2.4em;
+    padding: 0 1.5em;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    background-color: #2fb4a8;
+    color: white !important;
+    border: none;
+    margin-top: 1.5em;
+    display: inline-block;
+}
+.ai-section a.button.small-source:hover { background-color: #38c9bc; 
+.img-source {
+    display: block;
+    font-size: 0.65em;
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff !important;
+    text-decoration: none;
+    font-style: italic;
+}
+.img-source:hover { opacity: 1; text-decoration: underline; 
+.image.fit img { 
+    border-radius: 6px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); 
+}
+#header .logo strong { 
+    color: #fff; 
+}
+}
+
+
+#menu {
+    overflow-y: auto; /* Engedélyezi a függőleges görgetést a menün belül */
+    -webkit-overflow-scrolling: touch; /* Sima görgetés iOS-en */
+}
+
