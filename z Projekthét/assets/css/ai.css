@@ -1,6 +1,7 @@
 
 body {
      padding-top: 3.25em; 
+     background-color:#0c4d5e ;
 } 
 
 img{
@@ -23,7 +24,7 @@ img{
      background-color: #046a83; color: #e0f0f3; 
     }
 #deep {
-     background-color: #164a57; color: #e0f0f3; 
+     background-color: #0c4d5e; color: #e0f0f3; 
 }
 .ai-section a.button.small-source {
     height: 2.4em;
